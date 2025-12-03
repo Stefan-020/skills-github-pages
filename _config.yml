@@ -29,3 +29,17 @@ navigation:
     url: /blog/
   - title: "Contact"
     url: /contact/
+
+sass:
+  sass_dir: assets/css
+  style: compressed
+
+# Include CSS personalizat
+markdown: kramdown
+
+defaults:
+  - scope:
+      path: ""
+      type: pages
+    values:
+      css: "assets/css/custom.css"
