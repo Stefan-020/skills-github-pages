@@ -1,1 +1,20 @@
-theme: minima
+title: "Ștefan — Portofoliu"
+description: "Student IT | Web Developer | Proiecte și Blog"
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
+
+# Activăm modul dark
+minimal_mistakes_skin: "dark"
+
+# Reparăm paginile
+plugins:
+  - jekyll-include-cache
+
+# Date site
+author:
+  name: "Ștefan"
+  bio: "Student IT și pasionat de programare."
+  location: "Moldova"
+
+# Activează paginile:
+include:
+  - _pages
